@@ -4,5 +4,6 @@
 - 🌱 Estudando Django
 - 😄 Pronouns: ele/dele
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=decknho&show_icons=true&theme=radical)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=decknho)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=decknho&layout=compact)
