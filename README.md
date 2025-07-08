@@ -20,6 +20,13 @@ Me chamo Dereck Eder, tenho 20 anos e sou natural de Minas Gerais. Atualmente es
             src="https://custom-icon-badges.demolab.com/github/stars/decknho?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
         />
     </a>
+    <a href="https://www.linkedin.com/in/decknho/" target="_blank">
+        <img 
+            alt="LinkedIn" 
+            title="Me acompanhe no LinkedIn" 
+            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+        />
+    </a>
     
 </p>
 
