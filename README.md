@@ -2,7 +2,7 @@
 
 **`Desenvolvedor Back-End`**
 
-Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais. Atualmente, estou cursando Ciência da Computação. Sou apaixonado por tecnologia e compartilho meu conhecimento através do meu site "[Dereck Eder](https://www.dereckeder.com.br)".
+Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais. Atualmente estou cursando Ciência da Computação. Sou apaixonado por tecnologia e compartilho meu conhecimento através do [meu site](https://www.dereckeder.com.br).
 
 <p align="left">
     </a> 
@@ -34,7 +34,14 @@ Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
 />
-
+<img 
+    align="left" 
+    alt="Django"
+    title="Django" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+/>
 <img 
     align="left" 
     alt="HTML"
@@ -67,15 +74,6 @@ Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
 />
-<img 
-    align="left" 
-    alt="Django"
-    title="Django" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.png" 
-/>
-
 <br/>
 <br/>
 
