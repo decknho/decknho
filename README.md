@@ -1,10 +1,17 @@
-# Olá
+# Olá, meu nome é Dereck Eder 👋
 
 **`Desenvolvedor Back-End`**
 
-Me chamo Dereck Eder, tenho 20 anos e sou natural de Minas Gerais. Atualmente estou cursando Ciência da Computação. Sou apaixonado por tecnologia e compartilho meu conhecimento através do [meu site](https://www.dereckeder.com.br).
+Sou um desenvolvedor back-end e cientista de dados apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias e uma abordagem centrada no usuário, estou sempre em busca de novos desafios e oportunidades de aprendizado. e sempre procuro demonstrar essas habilidades no [meu site](https://www.dereckeder.com.br).
 
 <p align="left">
+    <a href="https://www.linkedin.com/in/decknho/" target="_blank">
+        <img 
+            alt="LinkedIn" 
+            title="Me acompanhe no LinkedIn" 
+            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+        />
+    </a>
     </a> 
     <a href="https://github.com/decknho?tab=followers">
         <img 
@@ -20,14 +27,6 @@ Me chamo Dereck Eder, tenho 20 anos e sou natural de Minas Gerais. Atualmente es
             src="https://custom-icon-badges.demolab.com/github/stars/decknho?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
         />
     </a>
-    <a href="https://www.linkedin.com/in/decknho/" target="_blank">
-        <img 
-            alt="LinkedIn" 
-            title="Me acompanhe no LinkedIn" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-        />
-    </a>
-    
 </p>
 
 ---
