@@ -1,18 +1,11 @@
-# Dereck Eder
+# Olá
 
 **`Desenvolvedor Back-End`**
 
-Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais. Atualmente estou cursando Ciência da Computação. Sou apaixonado por tecnologia e compartilho meu conhecimento através do [meu site](https://www.dereckeder.com.br).
+Me chamo Dereck Eder, tenho 20 anos e sou natural de Minas Gerais. Atualmente estou cursando Ciência da Computação. Sou apaixonado por tecnologia e compartilho meu conhecimento através do [meu site](https://www.dereckeder.com.br).
 
 <p align="left">
     </a> 
-    <a href="https://github.com/decknho?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/decknho?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
     <a href="https://github.com/decknho?tab=followers">
         <img 
             alt="Seguidores" 
@@ -20,6 +13,14 @@ Me chamo Dereck Eder Cabral Santana, tenho 20 anos e sou natural de Minas Gerais
             src="https://custom-icon-badges.demolab.com/github/followers/decknho?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
         />
     </a>
+    <a href="https://github.com/decknho?tab=repositories&sort=stargazers">
+        <img 
+            alt="Total de estrelas" 
+            title="Total de estrelas GitHub" 
+            src="https://custom-icon-badges.demolab.com/github/stars/decknho?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
+        />
+    </a>
+    
 </p>
 
 ---
