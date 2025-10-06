@@ -1,6 +1,6 @@
 # Olá, meu nome é Dereck Eder 👋
 
-**`Desenvolvedor Back-End`**
+**`Desenvolvedor Back-End`** **`Cientista de Dados`**
 
 Sou um desenvolvedor back-end e cientista de dados apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias e uma abordagem centrada no usuário, estou sempre em busca de novos desafios e oportunidades de aprendizado. e sempre procuro demonstrar essas habilidades no [meu site](https://www.dereckeder.com.br).
 
