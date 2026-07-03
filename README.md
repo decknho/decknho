@@ -1,7 +1,8 @@
 <!-- Header -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C26CE0&height=120&section=header"/>
 
-# Olá! Eu sou o Dereck Eder 👋
+<h1 align="center">Bem-vindo ao meu perfil!</h1>
+<h3 align="center">Olá! Eu sou o Dereck Eder 👋</h3>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=650&lines=Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Estudante+de+Ci%C3%AAncia+de+Dados;Futuro+Analista+de+Dados;Futuro+Cientista+de+Dados" />
 
