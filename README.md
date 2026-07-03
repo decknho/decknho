@@ -26,7 +26,7 @@
 
 ---
 
-```md
+
 # 🚀 Tecnologias
 
 | Linguagens | Ciência de Dados |
@@ -40,7 +40,7 @@
 | Ferramentas | Atualmente estudando |
 |--------------|----------------------|
 | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)<br>![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)<br>![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)<br>![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter) | ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)<br>![Data Engineering](https://img.shields.io/badge/Data%20Engineering-0A66C2?style=for-the-badge)<br>![Statistics](https://img.shields.io/badge/Statistics-00897B?style=for-the-badge)<br>![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-8E24AA?style=for-the-badge) |
-```
+
 
 
 ---
