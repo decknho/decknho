@@ -25,7 +25,7 @@ jobs:
       - name: Customize Empty Dots
         run: |
           sed -i 's/--ce:#CFFAFE/--ce:#AEB4BA/g' dist/github-snake.svg
-          sed -i 's/--ce:#CFFAFE/--ce:#343A40/g' dist/github-snake-dark.svg
+          sed -i 's/--ce:#164E63/--ce:#343A40/g' dist/github-snake-dark.svg
 
       - name: Publish Snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
