@@ -1,0 +1,170 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="440"
+  viewBox="0 0 1200 440"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101820"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <linearGradient id="cyan">
+      <stop stop-color="#087B90"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none"
+        stroke="#164E63" stroke-opacity=".25"/>
+    </pattern>
+
+    <style>
+      .heading {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        fill: #67E8F9;
+      }
+
+      .skill {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #A5C9D2;
+      }
+
+      .pill {
+        fill: #0D1117;
+        fill-opacity: .75;
+        stroke: #087B90;
+        stroke-opacity: .65;
+      }
+
+      .dot {
+        fill: #06B6D4;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="440" rx="20" fill="#0D1117"/>
+
+  <rect x="5" y="5" width="1190" height="430" rx="17"
+    fill="url(#bg)" stroke="#087B90" stroke-opacity=".7"/>
+
+  <rect x="5" y="5" width="1190" height="430" rx="17"
+    fill="url(#grid)"/>
+
+  <!-- Programming & Data -->
+  <circle cx="43" cy="43" r="3" class="dot"/>
+  <text x="57" y="48" class="heading">DADOS &amp; PROGRAMÇÃO</text>
+
+  <g>
+    <rect x="40" y="65" width="130" height="35" rx="7" class="pill"/>
+    <text x="105" y="87" text-anchor="middle" class="skill">Python</text>
+
+    <rect x="183" y="65" width="110" height="35" rx="7" class="pill"/>
+    <text x="238" y="87" text-anchor="middle" class="skill">SQL</text>
+
+    <rect x="306" y="65" width="120" height="35" rx="7" class="pill"/>
+    <text x="366" y="87" text-anchor="middle" class="skill">Pandas</text>
+
+    <rect x="439" y="65" width="120" height="35" rx="7" class="pill"/>
+    <text x="499" y="87" text-anchor="middle" class="skill">NumPy</text>
+
+    <rect x="572" y="65" width="100" height="35" rx="7" class="pill"/>
+    <text x="622" y="87" text-anchor="middle" class="skill">ETL</text>
+
+    <rect x="685" y="65" width="145" height="35" rx="7" class="pill"/>
+    <text x="757" y="87" text-anchor="middle" class="skill">Data Quality</text>
+  </g>
+
+  <path d="M35 123 H1165" stroke="#087B90" stroke-opacity=".35"/>
+
+  <!-- Machine Learning -->
+  <circle cx="43" cy="154" r="3" class="dot"/>
+  <text x="57" y="159" class="heading">MACHINE LEARNING &amp; ESTATÍSTICA</text>
+
+  <g>
+    <rect x="40" y="175" width="145" height="35" rx="7" class="pill"/>
+    <text x="112" y="197" text-anchor="middle" class="skill">Scikit-learn</text>
+
+    <rect x="198" y="175" width="120" height="35" rx="7" class="pill"/>
+    <text x="258" y="197" text-anchor="middle" class="skill">XGBoost</text>
+
+    <rect x="331" y="175" width="150" height="35" rx="7" class="pill"/>
+    <text x="406" y="197" text-anchor="middle" class="skill">Random Forest</text>
+
+    <rect x="494" y="175" width="120" height="35" rx="7" class="pill"/>
+    <text x="554" y="197" text-anchor="middle" class="skill">Statistics</text>
+
+    <rect x="627" y="175" width="125" height="35" rx="7" class="pill"/>
+    <text x="689" y="197" text-anchor="middle" class="skill">Regression</text>
+
+    <rect x="765" y="175" width="145" height="35" rx="7" class="pill"/>
+    <text x="837" y="197" text-anchor="middle" class="skill">Classification</text>
+
+    <rect x="923" y="175" width="120" height="35" rx="7" class="pill"/>
+    <text x="983" y="197" text-anchor="middle" class="skill">Clustering</text>
+  </g>
+
+  <path d="M35 233 H1165" stroke="#087B90" stroke-opacity=".35"/>
+
+  <!-- Data Analytics -->
+  <circle cx="43" cy="264" r="3" class="dot"/>
+  <text x="57" y="269" class="heading">ANÁLISE DE DADOS &amp; VISUALIZAÇÃO</text>
+
+  <g>
+    <rect x="40" y="285" width="125" height="35" rx="7" class="pill"/>
+    <text x="102" y="307" text-anchor="middle" class="skill">Power BI</text>
+
+    <rect x="178" y="285" width="105" height="35" rx="7" class="pill"/>
+    <text x="230" y="307" text-anchor="middle" class="skill">Excel</text>
+
+    <rect x="296" y="285" width="130" height="35" rx="7" class="pill"/>
+    <text x="361" y="307" text-anchor="middle" class="skill">Matplotlib</text>
+
+    <rect x="439" y="285" width="115" height="35" rx="7" class="pill"/>
+    <text x="496" y="307" text-anchor="middle" class="skill">Seaborn</text>
+
+    <rect x="567" y="285" width="85" height="35" rx="7" class="pill"/>
+    <text x="609" y="307" text-anchor="middle" class="skill">EDA</text>
+
+    <rect x="665" y="285" width="165" height="35" rx="7" class="pill"/>
+    <text x="747" y="307" text-anchor="middle" class="skill">Data Visualization</text>
+
+    <rect x="843" y="285" width="85" height="35" rx="7" class="pill"/>
+    <text x="885" y="307" text-anchor="middle" class="skill">KPIs</text>
+  </g>
+
+  <path d="M35 343 H1165" stroke="#087B90" stroke-opacity=".35"/>
+
+  <!-- Tools -->
+  <circle cx="43" cy="374" r="3" class="dot"/>
+  <text x="57" y="379" class="heading">FERRAMENTAS &amp; AMBIENTE</text>
+
+  <g>
+    <rect x="40" y="395" width="165" height="30" rx="7" class="pill"/>
+    <text x="122" y="415" text-anchor="middle" class="skill">Jupyter Notebook</text>
+
+    <rect x="218" y="395" width="95" height="30" rx="7" class="pill"/>
+    <text x="265" y="415" text-anchor="middle" class="skill">Git</text>
+
+    <rect x="326" y="395" width="105" height="30" rx="7" class="pill"/>
+    <text x="378" y="415" text-anchor="middle" class="skill">GitHub</text>
+
+    <rect x="444" y="395" width="115" height="30" rx="7" class="pill"/>
+    <text x="501" y="415" text-anchor="middle" class="skill">VS Code</text>
+  </g>
+
+  <!-- Decorative accent -->
+  <path
+    d="M1120 405 L1125 393 L1130 405 L1142 410 L1130 415 L1125 427 L1120 415 L1108 410 Z"
+    fill="#67E8F9"
+    opacity=".8"
+  />
+</svg>

@@ -1,0 +1,64 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="100"
+  viewBox="0 0 1200 100"
+  fill="none"
+>
+  <defs>
+    <!-- Gradient for decorative line -->
+    <linearGradient id="lineGradient" x1="280" y1="0" x2="1130" y2="0">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="35%" stop-color="#087B90"/>
+      <stop offset="65%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Text glow -->
+    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#087B90"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#087B90"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text
+    x="10"
+    y="59"
+    text-anchor="start"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    letter-spacing="8"
+    fill="url(#textGradient)"
+  >
+    SKILLS
+  </text>
+
+  <!-- Decorative line -->
+  <path
+    d="M280 50 H1130"
+    stroke="url(#lineGradient)"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- Bottom detail -->
+  <path
+    d="M1189 76 H10"
+    stroke="#087B90"
+    stroke-width="1.5"
+    opacity="0.7"
+  />
+
+</svg>
