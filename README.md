@@ -4,7 +4,7 @@
 </p>
 
 <!-- Introduction -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=06B6D4&size=22&center=true&vCenter=true&width=1000&lines=Olá,+Meu+nome+é+Dereck+Eder;Cientista+de+Dados;É+um+prazer+ter+você+no+meu+perfil!+%3A%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=06B6D4&size=22&center=true&vCenter=true&width=1000&lines=É+um+prazer+ter+você+no+meu+perfil!+%3A%29)](https://git.io/typing-svg)
 
 
 <!-- Projects -->
