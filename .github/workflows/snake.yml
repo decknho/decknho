@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: decknho
           outputs: |
-            dist/github-snake.svg?color_snake=%2306B6D4&color_empty=%230D1117&color_dots=%23CFFAFE,%23A5F3FC,%2367E8F9,%2322D3EE,%230891B2
-            dist/github-snake-dark.svg?color_snake=%2306B6D4&color_empty=%230D1117&color_dots=%23164E63,%23155E75,%230E7490,%230891B2,%2306B6D4
+            dist/github-snake.svg?color_snake=%2306B6D4&color_empty=%AEB4BA&color_dots=%23CFFAFE,%23A5F3FC,%2367E8F9,%2322D3EE,%230891B2
+            dist/github-snake-dark.svg?color_snake=%2306B6D4&color_empty=%343A40&color_dots=%23164E63,%23155E75,%230E7490,%230891B2,%2306B6D4
 
       - name: Publish Snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
