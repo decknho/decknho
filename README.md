@@ -5,9 +5,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/decknho/decknho/output/github-snake-dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/decknho/decknho/output/github-snake.svg?v=2">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/decknho/decknho/output/github-snake.svg?v=2">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/decknho/decknho/output/github-snake-dark.svg?v=999">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/decknho/decknho/output/github-snake.svg?v=999">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/decknho/decknho/output/github-snake.svg?v=999">
   </picture>
 </div>
 
