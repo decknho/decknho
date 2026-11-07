@@ -61,10 +61,3 @@
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita">
 </p>
-
-
-<p align="center">
-  <a href="./README.md">Início</a>
-  &nbsp;·&nbsp;
-  <a href="./ESTRUTURA.md">Estrutura do projeto</a>
-</p>
