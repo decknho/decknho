@@ -115,16 +115,7 @@
                repeatCount="indefinite"/>
     </rect>
 
-    <!-- Linha inferior -->
-    <rect x="10" y="202" width="1180" height="8"
-          fill="#164E63"/>
 
-    <rect x="10" y="202" width="320" height="8"
-          fill="url(#cyan)">
-      <animate attributeName="width"
-               values="240;520;240"
-               dur="8s" repeatCount="indefinite"/>
-    </rect>
 
   </g>
 </svg>
