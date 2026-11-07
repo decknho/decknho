@@ -37,15 +37,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dereckeder">
-    <img src="https://img.shields.io/badge/LINKEDIN-087B90?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:dereckeder.c.s@gmail.com">
-    <img src="https://img.shields.io/badge/E--MAIL-164E63?style=flat&logo=gmail&logoColor=white" alt="E-mail">
-  </a>
-  <a href="https://wa.me/5531982086323">
-    <img src="https://img.shields.io/badge/WHATSAPP-087B90?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>
+  <a href="https://www.linkedin.com/in/dereckeder"><img src="https://img.shields.io/badge/LinkedIn-087B90?style=for-the-badge&logo=linkedin&logoColor=FFF3B0" /></a>
+  <a href="mailto:dereckeder.c.s@gmail.com"><img src="https://img.shields.io/badge/E--mail-164E63?style=for-the-badge&logo=yahoo&logoColor=9C2A5E" /></a>
+  <a href="https://wa.me/5531982086323"><img src="https://img.shields.io/badge/Whatsapp-087B90?style=for-the-badge&logoColor=FFF3B0" /></a>
 </p>
 
 <!-- Statistics -->
