@@ -27,10 +27,6 @@
   <rect x="5" y="5" width="390" height="170"
         rx="17" fill="url(#grid)"/>
 
-  <path d="M0 145 Q100 110 200 140 T410 120"
-        fill="none" stroke="#06B6D4"
-        stroke-width="2" opacity=".5"/>
-
   <text x="105" y="80" fill="#67E8F9"
         font-family="Arial" font-size="27"
         font-weight="bold">
