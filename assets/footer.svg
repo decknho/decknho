@@ -1,133 +1,141 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="1200"
-  height="180"
-  viewBox="0 0 1200 180"
-  fill="none"
->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="220" viewBox="0 0 1200 220">
+
   <defs>
-    <linearGradient id="waveGradient1" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#164E63"/>
-      <stop offset="50%" stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#164E63"/>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101820"/>
+      <stop offset="1" stop-color="#0D1117"/>
     </linearGradient>
 
-    <linearGradient id="waveGradient2" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#087B90"/>
-      <stop offset="50%" stop-color="#67E8F9"/>
-      <stop offset="100%" stop-color="#087B90"/>
+    <linearGradient id="cyan">
+      <stop stop-color="#087B90"/>
+      <stop offset=".5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
 
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="shine">
+      <stop stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E0FCFF"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
 
-    <style>
-      .wave {
-        animation: waveMove 12s ease-in-out infinite alternate;
-      }
+    <pattern id="grid" width="34" height="34"
+             patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none"
+            stroke="#164E63" stroke-opacity=".26"/>
+    </pattern>
 
-      .wave2 {
-        animation: waveMove 9s ease-in-out infinite alternate-reverse;
-      }
+    <clipPath id="clip">
+      <rect x="10" y="10" width="1180" height="200" rx="24"/>
+    </clipPath>
 
-      .float {
-        animation: float 3.5s ease-in-out infinite;
-      }
-
-      .twinkle {
-        animation: twinkle 3s ease-in-out infinite;
-      }
-
-      @keyframes waveMove {
-        from { transform: translateX(-18px); }
-        to { transform: translateX(18px); }
-      }
-
-      @keyframes float {
-        0%, 100% { transform: translateY(18px); }
-        50% { transform: translateY(-18px); }
-      }
-
-      @keyframes twinkle {
-        0%, 100% { opacity: .3; }
-        50% { opacity: 1; }
-      }
-    </style>
+    <mask id="textMask">
+      <rect width="1200" height="220" fill="black"/>
+      <text x="600" y="135" text-anchor="middle"
+            font-family="Arial,sans-serif"
+            font-size="58" font-weight="bold"
+            fill="white">
+        Obrigado pela visita
+      </text>
+    </mask>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="180" fill="#0D1117"/>
+  <rect width="1200" height="220" rx="28" fill="#0D1117"/>
 
-  <!-- Central glow -->
-  <ellipse cx="600" cy="110" rx="390" ry="85" fill="url(#glow)"/>
+  <g clip-path="url(#clip)">
 
-  <!-- Decorative waves -->
-  <g class="wave" opacity=".65">
-    <path
-      d="M-100 30 C100 100 200 100 400 45 S700 0 900 55 S1100 105 1300 35"
-      stroke="url(#waveGradient1)"
-      stroke-width="2"
-    />
-  </g>
+    <rect x="10" y="10" width="1180" height="200"
+          fill="url(#bg)"/>
 
-  <g class="wave2" opacity=".8">
-    <path
-      d="M-100 48 C100 115 250 115 450 62 S750 15 950 70 S1150 120 1300 52"
-      stroke="url(#waveGradient2)"
-      stroke-width="1.5"
-    />
-  </g>
+    <rect x="10" y="10" width="1180" height="200"
+          fill="url(#grid)"/>
 
-  <g opacity=".35">
-    <path
-      d="M-100 65 C100 130 250 130 450 80 S750 35 950 90 S1150 135 1300 70"
-      stroke="#087B90"
-      stroke-width="1"
-    />
-  </g>
+    <!-- Curva superior -->
+    <path d="M-30 55 Q250 105 450 65 T850 75 T1230 105"
+          fill="none" stroke="#087B90"
+          stroke-width="2" opacity=".55"/>
 
-  <!-- Decorative points -->
-  <g fill="#67E8F9">
-    <circle cx="110" cy="88" r="2" class="twinkle"/>
-    <circle cx="245" cy="115" r="1.8" class="twinkle"/>
-    <circle cx="390" cy="94" r="2" class="twinkle"/>
-    <circle cx="810" cy="105" r="2" class="twinkle"/>
-    <circle cx="960" cy="85" r="1.8" class="twinkle"/>
-    <circle cx="1090" cy="112" r="2" class="twinkle"/>
-  </g>
+    <path d="M-30 40 Q250 90 450 50 T850 60 T1230 90"
+          fill="none" stroke="#06B6D4"
+          stroke-width="2.5" stroke-dasharray="9 13">
+      <animate attributeName="stroke-dashoffset"
+               from="0" to="-176"
+               dur="12s" repeatCount="indefinite"/>
+    </path>
 
-  <!-- Floating stars -->
-  <g class="float">
-    <path
-      d="M115 105 L120 116 L131 121 L120 126 L115 137 L110 126 L99 121 L110 116Z"
-      fill="#06B6D4"
-      opacity=".8"
-    />
-  </g>
+    <!-- Pontos luminosos -->
+    <g fill="#67E8F9">
+      <circle cx="150" cy="77" r="3">
+        <animate attributeName="opacity"
+                 values=".2;1;.2"
+                 dur="3s" repeatCount="indefinite"/>
+      </circle>
 
-  <g class="float" style="animation-delay: .7s">
-    <path
-      d="M1085 105 L1090 116 L1101 121 L1090 126 L1085 137 L1080 126 L1069 121 L1080 116Z"
-      fill="#087B90"
-      opacity=".9"
-    />
-  </g>
+      <circle cx="410" cy="62" r="3">
+        <animate attributeName="opacity"
+                 values="1;.2;1"
+                 dur="4s" repeatCount="indefinite"/>
+      </circle>
 
-  <!-- Main message -->
-  <g class="float">
-    <text
-      x="600"
-      y="127"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="23"
-      font-weight="bold"
-      letter-spacing="1"
-      fill="#06B6D4"
-    >
-      ✦ Obrigado pela visita! ✦
+      <circle cx="900" cy="76" r="3">
+        <animate attributeName="opacity"
+                 values=".2;1;.2"
+                 dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Estrela esquerda -->
+    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5
+             L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5 Z"
+          transform="translate(220 130)"
+          fill="#06B6D4"/>
+
+    <!-- Estrela direita -->
+    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5
+             L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5 Z"
+          transform="translate(980 130)"
+          fill="#67E8F9"/>
+
+    <!-- Texto principal -->
+    <text x="600" y="135"
+          text-anchor="middle"
+          font-family="Arial,sans-serif"
+          font-size="58"
+          font-weight="bold"
+          fill="#00c6e9">
+      Obrigado pela visita
     </text>
+
+    <!-- Brilho passando pelo texto -->
+    <rect x="-100" y="75" width="75" height="80"
+          fill="url(#shine)" mask="url(#textMask)">
+      <animate attributeName="x"
+               values="-100;1250"
+               dur="5.8s" begin=".8s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Subtítulo -->
+    <text x="600" y="168"
+          text-anchor="middle"
+          font-family="Arial,sans-serif"
+          font-size="15"
+          font-weight="600"
+          letter-spacing="5"
+          fill="#007185">
+      DATA SCIENCE &amp; ANALYTICS
+    </text>
+
+    <!-- Linha inferior -->
+    <rect x="10" y="202" width="1180" height="8"
+          fill="#164E63"/>
+
+    <rect x="10" y="202" width="320" height="8"
+          fill="url(#cyan)">
+      <animate attributeName="width"
+               values="240;520;240"
+               dur="8s" repeatCount="indefinite"/>
+    </rect>
+
   </g>
 </svg>

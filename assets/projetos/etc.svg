@@ -1,61 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="600" height="230"
+     viewBox="0 0 600 230"
+     fill="none">
 
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="600"
-  height="230"
-  viewBox="0 0 600 230"
-  fill="none"
->
   <defs>
     <linearGradient id="border" x1="0" y1="0" x2="600" y2="230">
-      <stop offset="0%" stop-color="#087B90"/>
-      <stop offset="50%" stop-color="#164E63"/>
-      <stop offset="100%" stop-color="#06B6D4"/>
+      <stop stop-color="#087B90"/>
+      <stop offset=".5" stop-color="#164E63"/>
+      <stop offset="1" stop-color="#06B6D4"/>
     </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#087B90"/>
+      <stop offset=".5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="shine">
+      <stop stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E0FCFF"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="596" height="226" rx="18"/>
+    </clipPath>
   </defs>
 
   <!-- Card -->
-  <rect x="2" y="2" width="596" height="226" rx="18"
-    fill="#0D1117" stroke="url(#border)" stroke-width="2"/>
+  <rect x="2" y="2" width="596" height="226"
+        rx="18" fill="#0D1117"
+        stroke="url(#border)" stroke-width="2"/>
 
-  <!-- Decorative corner -->
-  <path d="M18 48 V20 Q18 18 22 18 H75"
-    stroke="#06B6D4" stroke-width="2" opacity="0.8"/>
+  <g clip-path="url(#cardClip)">
 
-  <!-- Project category -->
-  <text x="32" y="48" fill="#06B6D4"
-    font-family="Arial, sans-serif" font-size="12"
-    font-weight="bold" letter-spacing="2">
-    PORTFOLIO
-  </text>
+    <!-- Decorative corner -->
+    <path d="M18 48 V20 Q18 18 22 18 H75"
+          stroke="#06B6D4" stroke-width="2"
+          opacity=".8"/>
 
-  <!-- Project title -->
-  <text x="32" y="88" fill="#67E8F9"
-    font-family="Arial, sans-serif" font-size="25"
-    font-weight="bold">
-    Outros Projetos
-  </text>
+    <!-- Category -->
+    <text x="32" y="48"
+          fill="#06B6D4"
+          font-family="Arial,sans-serif"
+          font-size="12"
+          font-weight="bold"
+          letter-spacing="2">
+      PORTFOLIO
+    </text>
 
-  <!-- Description -->
-  <text x="32" y="119" fill="#C9D1D9"
-    font-family="Arial, sans-serif" font-size="14">
-    <tspan x="32" dy="0">Explore outros projetos, estudos e</tspan>
-    <tspan x="32" dy="21">experimentos desenvolvidos por mim.</tspan>
-  </text>
+    <!-- Project title -->
+    <text x="32" y="88"
+          fill="#67E8F9"
+          font-family="Arial,sans-serif"
+          font-size="25"
+          font-weight="bold">
+      Outros Projetos
+    </text>
 
-  <!-- Technologies / topics -->
-  <rect x="32" y="164" width="75" height="25" rx="6" fill="#164E63"/>
-  <text x="69.5" y="181" text-anchor="middle"
-    fill="#67E8F9" font-size="11" font-family="Arial">Python</text>
+    <!-- Description -->
+    <text x="32" y="119"
+          fill="#C9D1D9"
+          font-family="Arial,sans-serif"
+          font-size="14">
+      <tspan x="32" dy="0">Explore outros projetos de estudo</tspan>
+      <tspan x="32" dy="21">e experimentos desenvolvidos por mim.</tspan>
+    </text>
 
-  <rect x="116" y="164" width="65" height="25" rx="6" fill="#164E63"/>
-  <text x="148.5" y="181" text-anchor="middle"
-    fill="#67E8F9" font-size="11" font-family="Arial">SQL</text>
+    <!-- Technologies -->
+    <rect x="32" y="164" width="75" height="25"
+          rx="6" fill="#164E63"/>
+    <text x="69.5" y="181" text-anchor="middle"
+          fill="#67E8F9" font-size="11"
+          font-family="Arial">Science</text>
 
-  <rect x="190" y="164" width="105" height="25" rx="6" fill="#164E63"/>
-  <text x="242.5" y="181" text-anchor="middle"
-    fill="#67E8F9" font-size="11" font-family="Arial">Data Science</text>
+    <rect x="116" y="164" width="75" height="25"
+          rx="6" fill="#164E63"/>
+    <text x="153.5" y="181" text-anchor="middle"
+          fill="#67E8F9" font-size="11"
+          font-family="Arial">Analysis</text>
 
-  <!-- Bottom detail -->
-  <path d="M32 207 H568" stroke="#164E63" stroke-width="1"/>
+    <rect x="200" y="164" width="115" height="25"
+          rx="6" fill="#164E63"/>
+    <text x="257.5" y="181" text-anchor="middle"
+          fill="#67E8F9" font-size="11"
+          font-family="Arial">Engineering</text>
+
+    <!-- Bottom separator -->
+    <path d="M32 207 H568"
+          stroke="#164E63" stroke-width="1"/>
+
+    <!-- Subtle moving shine -->
+    <rect x="-80" y="2" width="55" height="226"
+          fill="url(#shine)" opacity=".16">
+      <animate attributeName="x"
+               values="-80;650"
+               dur="9s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
 </svg>

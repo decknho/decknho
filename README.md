@@ -1,8 +1,59 @@
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=06B6D4&height=120&section=header"/>
+<p align="center">
+  <img width="100%" src="./assets/header.svg" alt="Dereck Eder - Data Science & Analytics">
+</p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=06B6D4&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Meu+nome+é+Dereck+Eder;Tenho+22+anos+de+idade;Cientista+de+Dados;É+um+prazer+ter+você+no+meu+perfil!+:%29)](https://git.io/typing-svg)
+<!-- Introduction -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=06B6D4&size=22&center=true&vCenter=true&width=1000&lines=Olá,+Meu+nome+é+Dereck+Eder;Cientista+de+Dados;É+um+prazer+ter+você+no+meu+perfil!+%3A%29)](https://git.io/typing-svg)
 
+
+<!-- Projects -->
+<p align="center">
+  <img src="./assets/projects.svg" width="100%" alt="Projects">
+</p>
+
+<p align="center">
+  <a href="https://github.com/decknho/lol-ranked-win">
+    <img src="./assets/projetos/lol-ranked-win.svg" width="49%" alt="LoL Ranked Win">
+  </a>
+  <a href="https://github.com/decknho/job-salary-prediction">
+    <img src="./assets/projetos/job-salary-prediction.svg" width="49%" alt="Job Salary Prediction">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/decknho/sales-analysis">
+    <img src="./assets/projetos/sales-analysis.svg" width="49%" alt="Sales Analysis">
+  </a>
+  <a href="https://github.com/decknho">
+    <img src="./assets/projetos/etc.svg" width="49%" alt="Outros Projetos">
+  </a>
+</p>
+
+
+<!-- Contacts -->
+<p align="center">
+  <img src="./assets/contacts.svg" width="100%" alt="Contacts">
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/dereckeder">
+    <img src="https://img.shields.io/badge/LINKEDIN-087B90?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:dereckeder.c.s@gmail.com">
+    <img src="https://img.shields.io/badge/E--MAIL-164E63?style=flat&logo=gmail&logoColor=white" alt="E-mail">
+  </a>
+  <a href="https://wa.me/5531982086323">
+    <img src="https://img.shields.io/badge/WHATSAPP-087B90?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
+</p>
+
+<!-- Statistics -->
+<p align="center">
+  <img src="./assets/status.svg" width="100%" alt="Statistics">
+</p>
+
+<!-- Contribution Snake -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/decknho/decknho/output/github-snake-dark.svg?v=999">
@@ -11,5 +62,15 @@
   </picture>
 </div>
 
+<br>
 <!-- Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=06B6D4&height=120&section=footer"/>
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita">
+</p>
+
+
+<p align="center">
+  <a href="./README.md">Início</a>
+  &nbsp;·&nbsp;
+  <a href="./ESTRUTURA.md">Estrutura do projeto</a>
+</p>
