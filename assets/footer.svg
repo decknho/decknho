@@ -115,17 +115,6 @@
                repeatCount="indefinite"/>
     </rect>
 
-    <!-- Subtítulo -->
-    <text x="600" y="168"
-          text-anchor="middle"
-          font-family="Arial,sans-serif"
-          font-size="15"
-          font-weight="600"
-          letter-spacing="5"
-          fill="#007185">
-      DATA SCIENCE &amp; ANALYTICS
-    </text>
-
     <!-- Linha inferior -->
     <rect x="10" y="202" width="1180" height="8"
           fill="#164E63"/>
