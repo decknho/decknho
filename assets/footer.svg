@@ -1,0 +1,121 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="900"
+  height="150"
+  viewBox="0 0 900 150"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="wave1" x1="0" y1="0" x2="900" y2="150">
+      <stop offset="0%" stop-color="#164E63"/>
+      <stop offset="50%" stop-color="#087B90"/>
+      <stop offset="100%" stop-color="#164E63"/>
+    </linearGradient>
+
+    <linearGradient id="wave2" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#087B90"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#087B90"/>
+    </linearGradient>
+
+    <clipPath id="clip">
+      <rect width="900" height="150" rx="20"/>
+    </clipPath>
+
+    <style>
+      .float {
+        animation: float 3.5s ease-in-out infinite;
+      }
+
+      .twinkle {
+        animation: twinkle 2.5s ease-in-out infinite;
+      }
+
+      .wave {
+        animation: wave 8s linear infinite;
+      }
+
+      @keyframes float {
+        50% { transform: translateY(-9px); }
+      }
+
+      @keyframes twinkle {
+        0%, 100% { opacity: .3; transform: scale(.7); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+
+      @keyframes wave {
+        to { transform: translateX(-450px); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <!-- Background -->
+    <rect width="900" height="150" fill="#0D1117"/>
+
+    <!-- Decorative waves -->
+    <path
+      class="wave"
+      d="M0 65 Q112 95 225 65 T450 65 T675 65 T900 65 T1350 65 V0 H0Z"
+      fill="url(#wave1)"
+      opacity=".85"
+    />
+
+    <path
+      class="wave"
+      d="M0 43 Q112 72 225 43 T450 43 T675 43 T900 43 T1350 43 V0 H0Z"
+      fill="url(#wave2)"
+      opacity=".65"
+    />
+
+    <!-- Floating decorative elements -->
+    <g class="float">
+      <path
+        d="M90 91 L97 105 L111 112 L97 119 L90 133 L83 119 L69 112 L83 105Z"
+        fill="#06B6D4"
+        opacity=".8"
+      />
+      <circle cx="90" cy="112" r="3" fill="#67E8F9"/>
+    </g>
+
+    <g class="float" style="animation-delay:.5s">
+      <path
+        d="M810 91 L817 105 L831 112 L817 119 L810 133 L803 119 L789 112 L803 105Z"
+        fill="#087B90"
+        opacity=".9"
+      />
+      <circle cx="810" cy="112" r="3" fill="#67E8F9"/>
+    </g>
+
+    <!-- Small stars -->
+    <g class="twinkle" fill="#67E8F9">
+      <path d="M210 92 L213 99 L220 102 L213 105 L210 112 L207 105 L200 102 L207 99Z"/>
+    </g>
+
+    <g class="twinkle" fill="#06B6D4" style="animation-delay:.8s">
+      <path d="M690 92 L693 99 L700 102 L693 105 L690 112 L687 105 L680 102 L687 99Z"/>
+    </g>
+
+    <circle cx="300" cy="104" r="2" fill="#67E8F9"/>
+    <circle cx="600" cy="104" r="2" fill="#67E8F9"/>
+
+    <!-- Main message -->
+    <g class="float">
+      <text
+        x="450"
+        y="111"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="21"
+        font-weight="bold"
+        fill="#67E8F9"
+      >
+        ✦ Obrigado pela visita! ✦
+      </text>
+    </g>
+
+  </g>
+</svg>

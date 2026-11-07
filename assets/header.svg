@@ -1,0 +1,126 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101820"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <linearGradient id="cyan">
+      <stop stop-color="#087B90"/>
+      <stop offset=".5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="shine">
+      <stop stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E0FCFF"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#164E63" stroke-opacity=".26"/>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect x="10" y="10" width="1180" height="280" rx="24"/>
+    </clipPath>
+
+    <mask id="nameMask">
+      <rect width="1200" height="300" fill="black"/>
+      <text x="600" y="160" text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="82" font-weight="bold" fill="white">
+        Dereck Eder
+      </text>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="#0D1117"/>
+
+  <g clip-path="url(#clip)">
+
+    <rect x="10" y="10" width="1180" height="280" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1180" height="280" fill="url(#grid)"/>
+
+    <!-- Ondas tecnológicas -->
+    <path d="M-30 240 Q250 190 450 230 T850 220 T1230 190"
+      fill="none" stroke="#087B90" stroke-width="2" opacity=".55"/>
+
+    <path d="M-30 255 Q250 205 450 245 T850 235 T1230 205"
+      fill="none" stroke="#06B6D4" stroke-width="2.5"
+      stroke-dasharray="9 13">
+      <animate attributeName="stroke-dashoffset"
+        from="0" to="-176" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Pontos luminosos -->
+    <g fill="#67E8F9">
+      <circle cx="150" cy="196" r="3">
+        <animate attributeName="opacity"
+          values=".2;1;.2" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="410" cy="205" r="3">
+        <animate attributeName="opacity"
+          values="1;.2;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900" cy="215" r="3">
+        <animate attributeName="opacity"
+          values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Nome -->
+    <text x="600" y="160" text-anchor="middle"
+      font-family="Arial,sans-serif"
+      font-size="82" font-weight="bold"
+      fill="#00c6e9">
+      Dereck Eder
+    </text>
+
+    <!-- Brilho vertical no nome -->
+    <rect x="-100" y="65" width="75" height="110"
+      fill="url(#shine)" mask="url(#nameMask)">
+      <animate attributeName="x"
+        values="-100;1250"
+        dur="5.8s" begin=".8s"
+        repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Estrela esquerda -->
+    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5 Z"
+      transform="translate(390 192)"
+      fill="#06B6D4"/>
+
+    <!-- Estrela direita -->
+    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5 Z"
+      transform="translate(810 192)"
+      fill="#67E8F9"/>
+
+    <!-- Estrelas menores -->
+    <g fill="#22D3EE">
+      <path d="M0 -5 L1.5 -1.5 L5 0 L1.5 1.5 L0 5 L-1.5 1.5 L-5 0 L-1.5 -1.5 Z"
+        transform="translate(385 222)"/>
+      <path d="M0 -5 L1.5 -1.5 L5 0 L1.5 1.5 L0 5 L-1.5 1.5 L-5 0 L-1.5 -1.5 Z"
+        transform="translate(815 222)"/>
+    </g>
+
+    <!-- Subtítulo -->
+    <text x="600" y="200" text-anchor="middle"
+      font-family="Arial,sans-serif"
+      font-size="18" font-weight="600"
+      letter-spacing="5" fill="#007185">
+      DATA SCIENCE &amp; ANALYTICS
+    </text>
+
+    <!-- Rodapé animado -->
+    <rect x="10" y="282" width="1180" height="8" fill="#164E63"/>
+
+    <rect x="10" y="282" width="320" height="8" fill="url(#cyan)">
+      <animate attributeName="width"
+        values="240;520;240"
+        dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+</svg>

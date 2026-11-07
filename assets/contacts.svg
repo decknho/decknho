@@ -1,0 +1,45 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="100"
+  viewBox="0 0 1200 100"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="contactLine" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="35%" stop-color="#087B90"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="65%" stop-color="#087B90"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="contactText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#087B90"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#087B90"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M70 50 H425" stroke="url(#contactLine)" stroke-width="2"/>
+  <path d="M775 50 H1130" stroke="url(#contactLine)" stroke-width="2"/>
+
+  <circle cx="70" cy="50" r="3" fill="#06B6D4"/>
+  <circle cx="1130" cy="50" r="3" fill="#06B6D4"/>
+
+  <text
+    x="600"
+    y="59"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    letter-spacing="8"
+    fill="url(#contactText)"
+  >
+    CONTACTS
+  </text>
+
+  <path d="M550 76 H650" stroke="#087B90" stroke-width="1.5"/>
+  <circle cx="600" cy="76" r="2" fill="#67E8F9"/>
+</svg>
