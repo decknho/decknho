@@ -1,121 +1,133 @@
-
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="900"
-  height="150"
-  viewBox="0 0 900 150"
+  width="1200"
+  height="180"
+  viewBox="0 0 1200 180"
   fill="none"
 >
   <defs>
-    <linearGradient id="wave1" x1="0" y1="0" x2="900" y2="150">
+    <linearGradient id="waveGradient1" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#164E63"/>
-      <stop offset="50%" stop-color="#087B90"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
       <stop offset="100%" stop-color="#164E63"/>
     </linearGradient>
 
-    <linearGradient id="wave2" x1="0" y1="0" x2="900" y2="0">
+    <linearGradient id="waveGradient2" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#087B90"/>
-      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
       <stop offset="100%" stop-color="#087B90"/>
     </linearGradient>
 
-    <clipPath id="clip">
-      <rect width="900" height="150" rx="20"/>
-    </clipPath>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
 
     <style>
+      .wave {
+        animation: waveMove 12s ease-in-out infinite alternate;
+      }
+
+      .wave2 {
+        animation: waveMove 9s ease-in-out infinite alternate-reverse;
+      }
+
       .float {
         animation: float 3.5s ease-in-out infinite;
       }
 
       .twinkle {
-        animation: twinkle 2.5s ease-in-out infinite;
+        animation: twinkle 3s ease-in-out infinite;
       }
 
-      .wave {
-        animation: wave 8s linear infinite;
+      @keyframes waveMove {
+        from { transform: translateX(-18px); }
+        to { transform: translateX(18px); }
       }
 
       @keyframes float {
-        50% { transform: translateY(-9px); }
+        0%, 100% { transform: translateY(18px); }
+        50% { transform: translateY(-18px); }
       }
 
       @keyframes twinkle {
-        0%, 100% { opacity: .3; transform: scale(.7); }
-        50% { opacity: 1; transform: scale(1.2); }
-      }
-
-      @keyframes wave {
-        to { transform: translateX(-450px); }
+        0%, 100% { opacity: .3; }
+        50% { opacity: 1; }
       }
     </style>
   </defs>
 
-  <g clip-path="url(#clip)">
+  <!-- Background -->
+  <rect width="1200" height="180" fill="#0D1117"/>
 
-    <!-- Background -->
-    <rect width="900" height="150" fill="#0D1117"/>
+  <!-- Central glow -->
+  <ellipse cx="600" cy="110" rx="390" ry="85" fill="url(#glow)"/>
 
-    <!-- Decorative waves -->
+  <!-- Decorative waves -->
+  <g class="wave" opacity=".65">
     <path
-      class="wave"
-      d="M0 65 Q112 95 225 65 T450 65 T675 65 T900 65 T1350 65 V0 H0Z"
-      fill="url(#wave1)"
-      opacity=".85"
+      d="M-100 30 C100 100 200 100 400 45 S700 0 900 55 S1100 105 1300 35"
+      stroke="url(#waveGradient1)"
+      stroke-width="2"
     />
+  </g>
 
+  <g class="wave2" opacity=".8">
     <path
-      class="wave"
-      d="M0 43 Q112 72 225 43 T450 43 T675 43 T900 43 T1350 43 V0 H0Z"
-      fill="url(#wave2)"
-      opacity=".65"
+      d="M-100 48 C100 115 250 115 450 62 S750 15 950 70 S1150 120 1300 52"
+      stroke="url(#waveGradient2)"
+      stroke-width="1.5"
     />
+  </g>
 
-    <!-- Floating decorative elements -->
-    <g class="float">
-      <path
-        d="M90 91 L97 105 L111 112 L97 119 L90 133 L83 119 L69 112 L83 105Z"
-        fill="#06B6D4"
-        opacity=".8"
-      />
-      <circle cx="90" cy="112" r="3" fill="#67E8F9"/>
-    </g>
+  <g opacity=".35">
+    <path
+      d="M-100 65 C100 130 250 130 450 80 S750 35 950 90 S1150 135 1300 70"
+      stroke="#087B90"
+      stroke-width="1"
+    />
+  </g>
 
-    <g class="float" style="animation-delay:.5s">
-      <path
-        d="M810 91 L817 105 L831 112 L817 119 L810 133 L803 119 L789 112 L803 105Z"
-        fill="#087B90"
-        opacity=".9"
-      />
-      <circle cx="810" cy="112" r="3" fill="#67E8F9"/>
-    </g>
+  <!-- Decorative points -->
+  <g fill="#67E8F9">
+    <circle cx="110" cy="88" r="2" class="twinkle"/>
+    <circle cx="245" cy="115" r="1.8" class="twinkle"/>
+    <circle cx="390" cy="94" r="2" class="twinkle"/>
+    <circle cx="810" cy="105" r="2" class="twinkle"/>
+    <circle cx="960" cy="85" r="1.8" class="twinkle"/>
+    <circle cx="1090" cy="112" r="2" class="twinkle"/>
+  </g>
 
-    <!-- Small stars -->
-    <g class="twinkle" fill="#67E8F9">
-      <path d="M210 92 L213 99 L220 102 L213 105 L210 112 L207 105 L200 102 L207 99Z"/>
-    </g>
+  <!-- Floating stars -->
+  <g class="float">
+    <path
+      d="M115 105 L120 116 L131 121 L120 126 L115 137 L110 126 L99 121 L110 116Z"
+      fill="#06B6D4"
+      opacity=".8"
+    />
+  </g>
 
-    <g class="twinkle" fill="#06B6D4" style="animation-delay:.8s">
-      <path d="M690 92 L693 99 L700 102 L693 105 L690 112 L687 105 L680 102 L687 99Z"/>
-    </g>
+  <g class="float" style="animation-delay: .7s">
+    <path
+      d="M1085 105 L1090 116 L1101 121 L1090 126 L1085 137 L1080 126 L1069 121 L1080 116Z"
+      fill="#087B90"
+      opacity=".9"
+    />
+  </g>
 
-    <circle cx="300" cy="104" r="2" fill="#67E8F9"/>
-    <circle cx="600" cy="104" r="2" fill="#67E8F9"/>
-
-    <!-- Main message -->
-    <g class="float">
-      <text
-        x="450"
-        y="111"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="21"
-        font-weight="bold"
-        fill="#67E8F9"
-      >
-        ✦ Obrigado pela visita! ✦
-      </text>
-    </g>
-
+  <!-- Main message -->
+  <g class="float">
+    <text
+      x="600"
+      y="127"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="23"
+      font-weight="bold"
+      letter-spacing="1"
+      fill="#06B6D4"
+    >
+      ✦ Obrigado pela visita! ✦
+    </text>
   </g>
 </svg>
