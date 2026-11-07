@@ -21,7 +21,7 @@ jobs:
           github_user_name: decknho
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake={snake.replace("#","")}&color_dots={dots.map(c=>c.replace("#","")).join(",")}
 
       - name: Publish Snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
